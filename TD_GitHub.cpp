@@ -36,18 +36,48 @@ int plusGrand(int a, int b, int c) {
     return max;
 }
 
-
-
-
-
-
-
-
-
-
 //Fonctions réalisées par l'étudiant 2 :
+bool estPair(int nb)
+{
+	bool resultat;
+	resultat = nb % 2
+	if (resultat == 0)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
 
+int sommeNombre(int nb)
+{
+	int SM = nb;
+	cin << nb;
+	cout << nb + ;
+	if
 
+float salaireNet(int salaire);
+{
+	float net;
+	net = salaire * (23/100)
+}
+	
+int plusPetit(int a, int b, int c)
+{
+	int nb1 = a;
+	int nb2 = b;
+    int nb3 = c;
+	cin >> a;
+	cin >> b;
+	cin >> c;
+	if (a<b<c)
+		return a;
+	else if (b<a<c)
+		return b;
+	else
+		return c;
+}
 
 
 
