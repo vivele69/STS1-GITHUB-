@@ -1,6 +1,8 @@
+
 //Fonctions réalisées par l'étudiant 1(Mathis Pignard ) :
 #include <iostream>
 using namespace std;
+
 
 bool estMajeur(int age) {
     if (age >= 18) {
@@ -10,7 +12,7 @@ bool estMajeur(int age) {
     }
 }
 
-    float exposant(float x, int n) {
+float exposant(float x, int n) {
     float result = 1.0;
     for (int i = 0; i < n; i++) {
         result *= x;
